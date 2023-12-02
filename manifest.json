@@ -1,0 +1,175 @@
+{
+    "manifest_version": 3,
+    "name": "Nexos Mods",
+    "description": "This Mods For Programmer",
+    "version": "1.2",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "author": "Nos Creator",
+    "developer":
+    {
+        "name": "Nos Creation"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music": ["music/track_1.mp3"],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/keyboard4.wav"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/featureswitchoff.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/featureswitchon.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/importantclick.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/opentab.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/featureswitchoff.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/featureswitchon.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/importantclick.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/closetab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/opentab.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound//closetab.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/tactilebackspace.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/tactileenter.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/tactile1.wav",
+                    "keyboard/tactile4.wav",
+                    "keyboard/tactile2.wav",
+                    "keyboard/tactile3.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/tactilespace.wav"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/amoled.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*",
+                        "https://*.discord.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Cyberdeck":
+                {
+                    "path": "shader/cyberdeck.txt",
+                    "animation":
+                    {
+                        "duration": 120,
+                        "steps": 3600
+                    }
+                }
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 180,
+                        "s": 100,
+                        "l": 50
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 180,
+                        "s": 100,
+                        "l": 10
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 180,
+                        "s": 100,
+                        "l": 10
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 180,
+                        "s": 100,
+                        "l": 50
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/dark.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#000000"
+                },
+                "light":
+                {
+                    "image": "wallpaper/light.png",
+                    "text_color": "#000000",
+                    "text_shadow": "#FFFFFF"
+                }
+            }
+        }
+    }
+}
